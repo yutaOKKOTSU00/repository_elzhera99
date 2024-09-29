@@ -116,7 +116,7 @@
                 if ($conexion->query($sql) == TRUE) {
                     echo "<p>L'auteur a été ajouté avec succès.</p>";
                 } else {
-                    echo "<p>Erreur lors de l'insertion de l' auteur </p>";
+                    echo "<p>Erreur lors de l'insertion</p>";
                 }
             }
 

@@ -1,0 +1,6 @@
+create table auteurs(idauteur int not null primary key auto_increment,nom varchar(20),prenom varchar(20),nationalite varchar(20) ,siecle char(5));
+create table citation(idcit int not null primary key auto_increment, auteur int not null,constraint fk_auteurs foreign key(auteur) references auteurs (idauteur),categorie varchar(20),texte varchar(1000));
+
+
+
+
